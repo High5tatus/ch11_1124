@@ -1,0 +1,14 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "ch11_1124"
+include ':app'
+include ':ch11_02'
+include ':ch11_02_1'
+include ':ch11_03'
+include ':ch11_04'
